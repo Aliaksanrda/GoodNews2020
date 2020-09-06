@@ -1,5 +1,30 @@
 body {
     width: 880px;
     margin: 0 auto;
-    background-color: #FFC700;
-}
+    background-color: #FFF384; 
+
+    @font-face {
+        font-family: 'Claudia Shouter Trial';
+        src: url('assets/ClaudiaShouterTrial-Black.woff2') format('woff2'),
+            url('assets/ClaudiaShouterTrial-Black.woff') format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Matter SQ TRIAL';
+        src: url('assets/MatterSQTRIAL-Bold.woff2') format('woff2'),
+            url('assets/MatterSQTRIAL-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    .h1
+        text-align: left;
+        font-family: 'Claudia Shouter Trial';
+        font-size: 20px;
+        line-height: 100px;
+        font-style: normal;
+        font-weight: 900;
+        
