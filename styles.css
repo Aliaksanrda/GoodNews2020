@@ -1,32 +1,83 @@
-body {
-    width: 880px;
-    margin: 0 auto;
-    background-color: #FFF384; 
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF384;
+}
 
-    @font-face {
-        font-family: 'Claudia Shouter Trial';
-        src: url('assets/ClaudiaShouterTrial-Black.woff2') format('woff2'),
-            url('assets/ClaudiaShouterTrial-Black.woff') format('woff');
-        font-weight: 900;
-        font-style: normal;
-        font-display: swap;
-    }
+.container {
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'Claudia Shouter Trial';
+    src: url('assets/ClaudiaShouterTrial-Black.woff2') format('woff2'),
+        url('assets/ClaudiaShouterTrial-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
     
-    @font-face {
-        font-family: 'Matter SQ TRIAL';
-        src: url('assets/MatterSQTRIAL-Bold.woff2') format('woff2'),
-            url('assets/MatterSQTRIAL-Bold.woff') format('woff');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
-    .h1
-        text-align: left;
-        font-family: 'Claudia Shouter Trial';
-        font-size: 20px;
-        line-height: 100px;
-        font-style: normal;
-        font-weight: 900;
+@font-face {
+    font-family: 'Matter SQ TRIAL';
+    src: url('assets/MatterSQTRIAL-Bold.woff2') format('woff2'),
+        url('assets/MatterSQTRIAL-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+h1{
+    font-family: 'Claudia Shouter Trial';
+    font-style: normal;
+    font-weight: 900;
+}
+p{
+    font-family: 'Matter SQ TRIAL';
+    font-style: normal;
+    font-weight: bold;  
+}
+
+.text h1{
+    font-size: 270px;
+    line-height: 210px;
+    position: fixed;
+    width: 896px;
+    height: 715px;
+    padding: 60px 0px 0px 40px; 
+}
+.wrap {
+    height: 15px;
+    margin: 100px;
+    display: flex;
+    font-family: 'Matter SQ TRIAL';
+    font-style: normal;
+    font-weight: bold; 
+  }
+  
+  .wrap span {
+    align-self: flex-end;
+  }
+.child {
+    border: 5px solid black;
+    width: 440px;
+    height: 100vh;
+    position: relative;
+    right: -70%;
+  }
+  .child h1{
+      font-size: 50px;
+      line-height: 50px;
+  }
+  .child p{
+      font-size: 20px;
+  }
+.layout {
+    display: flex;
+}
 
 
         
