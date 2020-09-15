@@ -4,9 +4,30 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #FFF384;
+    background-color: #FFAF00;
 }
-
+.article {
+height: 100vh; 
+max-width: 600px;
+padding: 40px 0px 0px 40px;
+}
+.article h1 {
+    color: #FBF0D2;
+    padding: 0px 0px 40px 00px;
+    font-size: 50px;
+    line-height: 50px;
+}
+.article p {
+    color: #FBF0D2;
+    font-size: 20px;
+}
+a,
+a:visited {
+    color: inherit;
+}
+a {
+    text-decoration: none;
+}
 .container {
     width: 100%;
     max-width: 1440px;
@@ -48,6 +69,7 @@ p{
     width: 896px;
     height: 715px;
     padding: 60px 0px 0px 40px; 
+    color: #FBF0D2;
 }
 .wrap {
     height: 15px;
@@ -57,23 +79,23 @@ p{
     font-style: normal;
     font-weight: bold; 
   }
-  
-  .wrap span {
-    align-self: flex-end;
-  }
 .child {
-    border: 5px solid black;
+    border: 5px solid #FBF0D2;;
     width: 440px;
     height: 100vh;
     position: relative;
     right: -70%;
+    padding: 10px;
   }
   .child h1{
       font-size: 50px;
       line-height: 50px;
+      padding-bottom: 10px;
+      color: #FBF0D2;
   }
   .child p{
       font-size: 20px;
+      color: #FBF0D2;
   }
 .layout {
     display: flex;
