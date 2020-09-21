@@ -8,14 +8,13 @@
 </head>
 <body>
   <div class="container">
-    <div class="text">
+    <div id="gifhere" class="text">      
       <h1>Good News 2020</h1> 
     </div>
     <div class="parent">
       <a href="article.html">
-        <div class="play-GIF-on-hover"></div>
        <div class="child">
-      <h1>World’s oldest married couple with a combined age of 214 years</h1>
+        <h1 onmouseenter=enter() onmouseleave=leave() >World’s oldest married couple with a combined age of 214 years</h1>
         <p>
           Julio César Mora and Waldramina Quinteros Quintero, aged 110 and 104 respectively, have been officially recognized by the Guinness World Book of Records as the world's oldest married couple. They’ve been married 79 years and say their secret to their marriage is love, maturity and mutual respect.        </p>  
         </div>
@@ -59,5 +58,13 @@
       </p>
   </div>
   </div>
+<script>
+function enter () {
+  document.getElementById("gifhere").innerHTML = '<img src="/GoodNews2020/assets/gif/giphy (4).gif" />'
+}
+function leave () {
+  document.getElementById("gifhere").innerHTML = '<h1>Good News 2020</h1>'
+}
+</script>
 </body>
 </html>

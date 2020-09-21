@@ -87,16 +87,6 @@ p{
     right: -70%;
     padding: 10px;
   }
-  .play-GIF-on-hover {
-    width: 200px;
-    height: 200px;
-    background-image: url('/GoodNews2020/assets/gif/giphy\ \(12\).gif');
-    background-size: 100%;
-    background-position: center center;
-}
-.play-GIF-on-hover:hover {
-    background-image: url('/GoodNews2020/assets/gif/giphy\ \(12\).gif');
-}
   .child h1{
       font-size: 50px;
       line-height: 50px;
@@ -110,6 +100,7 @@ p{
 .layout {
     display: flex;
 }
+
 
 
         
